@@ -1,6 +1,6 @@
 # 🧠 CIFAR-10 Image Classifier using CNN
 
-This project implements an image classification pipeline using a Convolutional Neural Network (CNN) trained on the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset. The model achieves ~75% validation accuracy and includes a clean interface to test predictions on custom images.
+This project implements an image classification pipeline using a Convolutional Neural Network (CNN) trained on the [CIFAR-10](https://www.kaggle.com/datasets/oxcdcd/cifar10) dataset. The model achieves ~75% validation accuracy and includes a clean interface to test predictions on custom images.
 
 ## 📁 Dataset Overview
 
@@ -8,13 +8,11 @@ The CIFAR-10 dataset contains 60,000 color images (32x32 pixels) labeled across 
 
 - `airplane`, `automobile`, `bird`, `cat`, `deer`, `dog`, `frog`, `horse`, `ship`, `truck`
 
-It is automatically downloaded using `keras.datasets.cifar10`.
-
 ---
 
 ## 🏗️ Model Architecture
 
-We use a deep CNN (Convolutional Neural Network) built with **Keras Sequential API**:
+Used a deep CNN (Convolutional Neural Network) built with **Keras Sequential API**:
 
 | Layer               | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
